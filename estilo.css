@@ -5,14 +5,14 @@ body {
 }
 
 header {
-    background-color: #77bf8f;
+    background-color: ##81a69e;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 2em;
 }
 
 nav {
-    background-color: #333;
+    background-color: #262626;
 }
 
 nav ul {
