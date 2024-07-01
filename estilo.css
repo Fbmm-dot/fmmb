@@ -5,10 +5,10 @@ body {
 }
 
 header {
-    background-color: ##81a69e;
+    background-color: #81a69e;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 2em;
+    padding: 2 em;
 }
 
 nav {
@@ -30,7 +30,7 @@ nav ul li {
 nav ul li a {
     display: block;
     color: rgb(255, 255, 255);
-    padding: 0.5em;
+    padding: 0.5 em;
     text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 1em;
+    padding: 1 em;
 }
 
 
