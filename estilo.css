@@ -30,7 +30,7 @@ nav ul li {
 nav ul li a {
     display: block;
     color: rgb(255, 255, 255);
-    padding: 1em;
+    padding: 0.5em;
     text-decoration: none;
 }
 
