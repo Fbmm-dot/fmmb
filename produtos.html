@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos - FBMM</title>
+    <title>Produtos - FMB</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #77bf8f;
-            color: rgb(255, 255, 255);
+            background-color: #81a69e;
+            color: #fbfbfb;
             text-align: center;
-            padding: 0.2em;
+            padding: 2em;
         }
 
         nav {
-            background-color: #333;
+            background-color: #262626;
         }
 
         nav ul {
@@ -36,8 +36,8 @@
 
         nav ul li a {
             display: block;
-            color: white;
-            padding: 1em;
+            color: rgb(255, 255, 255);
+            padding: 0.5em;
             text-decoration: none;
         }
 
@@ -47,7 +47,31 @@
 
         main {
             padding: 1em;
-            text-align: center;
+        }
+
+        .produtos {
+            margin-top: 1em;
+        }
+
+        
+        .avaliacoes {
+            margin-top: 2em;
+        }
+
+        .avaliacao {
+            margin-bottom: 1em;
+            padding: 1em;
+            background-color: #f0f0f0;
+            border-left: 5px solid #81a69e;
+        }
+
+        .avaliacao .nome {
+            font-weight: bold;
+            margin-bottom: 0.5em;
+        }
+
+        .avaliacao .estrelas {
+            color: #ffd700; 
         }
     </style>
 </head>
@@ -62,12 +86,53 @@
             <li><a href="noticias.html">Notícias</a></li>
             <li><a href="parcerias.html">Parcerias</a></li>
             <li><a href="produtos.html">Produtos</a></li>
-            <li><a href="creditos.html">Creditos</a></li>
+            <li><a href="fmb.html">FMB</a></li>
         </ul>
     </nav>
     <main>
-        <h2>Produtos</h2>
-        <p>texto...</p>
+        <section class="produtos">
+            <h2>Produtos em Destaque</h2>
+            <ul>
+                <li>Asus H310M-E 2.0 – a partir de R$ 474.</li>
+                <li>Asus B450M Prime Gaming – a partir de R$ 569.</li>
+                <li>Asus TUF B360M-Plus – a partir de R$ 584.</li>
+                <li>Asus TUF Gaming X570-Plus – a partir de R$ 1.503.</li>
+                <li>Asus ROG Strix B460-F Gaming – a partir de R$ 1.530.</li>
+                <li>Mouse frog/F729.dot – a partir de R$ 79.</li>
+                <li>Placa mãe Asus H110M-C + 13 6320 + 4GB RAM DDR4 com espelho – a partir R$ 994.</li>
+            </ul>
+        </section>
+
+
+        
+        <section class="avaliacoes">
+            <h2>Avaliações</h2>
+            <div class="avaliacao">
+                <div class="nome">Carlos Magno</div>
+                <div class="estrelas">★★★★☆</div>
+                <div class="comentario">Muito bom! Adorei o atendimento, vou fazer até cursinho de software.</div>
+            </div>
+            <div class="avaliacao">
+                <div class="nome">Sandra Pires</div>
+                <div class="estrelas">★★★★★</div>
+                <div class="comentario">Adorei as peças no almoço de domingo vou usar o h110m.</div>
+            </div>
+            <div class="avaliacao">
+                <div class="nome">Tarzan_calçaVirada</div>
+                <div class="estrelas">★★★☆☆</div>
+                <div class="comentario">Não entendi a estética prefiro ver anime!</div>
+            </div>
+            <div class="avaliacao">
+                <div class="nome">Antônio</div>
+                <div class="estrelas">★★★★★</div>
+                <div class="comentario">Gostei tanto que vou fazer plágio.</div>
+            </div>
+            <div class="avaliacao">
+                <div class="nome">Enzo Alberto Fernandes</div>
+                <div class="estrelas">★☆☆☆☆</div>
+                <div class="comentario">Num gostey axo que deve melorar achei paia.</div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
