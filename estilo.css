@@ -1,14 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Alice, serif;
     margin: 0;
     padding: 0;
 }
 
 header {
     background-color: #81a69e;
-    color: rgb(255, 255, 255);
+    color: #fbfbfb;
     text-align: center;
-    padding: 1 em;
+    padding: 2em;
 }
 
 nav {
@@ -30,7 +30,7 @@ nav ul li {
 nav ul li a {
     display: block;
     color: rgb(255, 255, 255);
-    padding: 1 em;
+    padding: 0.5em;
     text-decoration: none;
 }
 
@@ -39,8 +39,23 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 1 em;
+    padding: 1em;
 }
 
 
 
+.content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.text {
+    flex: 1;
+    margin-right: 30px;
+    text-align: left;
+}
+
+.image img {
+    max-width: 95%;
+    height: auto;
+}
